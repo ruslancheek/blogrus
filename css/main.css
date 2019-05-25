@@ -1,0 +1,166 @@
+
+body{
+	color: #90918B;
+	background-color: #6D6E6A;
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 60px;
+	top: 0px;
+	right: 0px;
+	left:0px;
+	position: fixed;
+}
+input {
+	outline:none;
+}
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	}
+#emblem{
+	position: absolute;
+	left: 40px;
+	top: 0px;
+	width: 300px;
+	height: 60px;
+	color: #fff;
+	font-size: 50px;
+}
+.emblem{
+	width: 300px;
+	height: 60px;
+}
+.balance{
+	font-size: 50px;
+	color: #fff;
+	position: absolute;
+	right: 40px;
+	top: 0px;
+	margin-left: 50px;
+	width: 700px;
+	height: 60px;
+	transition: transform 2s linear 0s;
+}
+
+
+#content{
+	position: absolute;
+	top:70px;
+	left:0px; 
+	right:0px;
+	bottom:0px; 
+	min-width:1024px;
+	min-height:500px;
+}
+#game {
+	width: 65%;
+	padding:10px;
+	background-color: #282923;
+	position:absolute;
+	top:0px;
+	bottom: 0px;
+	left: 0px;
+	border-top-right-radius:20px ;
+}
+#roulette-all{
+
+}
+#roulette{
+	width: 50%;
+
+}
+#pointer{
+	position: fixed;
+	top:80px;
+	left:13px;
+	width: 65%;
+	height: 19%;
+}
+#bet-all{
+	margin-top: 100px;
+}
+#bet{
+	display: inline;
+}
+#stavka{
+	display: inline;
+	color: #fff;
+	font-size: 17px;
+
+}
+#betting{
+	display: inline;
+	background-color:#202225; 
+	padding: 10px;
+}
+#betting-inp{
+	background-color: #202225;
+	border:0px solid #000;
+	border-radius:4px;
+	font-size: 15px;
+	padding: 5px;
+	margin: 20px 0px 20px 0px;
+	color: #fff;
+	width: 100px;
+}
+
+.button-bet{
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 20px;
+}
+#red:hover {
+	transition: 1s;
+	border: 5px solid white ;
+}
+#black:hover {
+	transition: 1s;
+	border: 5px solid white ;
+}
+#green:hover {
+	transition: 1s;
+	border: 5px solid white ;
+}
+#red {
+	background-color: #C73150;
+	border: 5px solid #282923;
+	border-radius: 20px;
+	padding: 14px 30px;
+}
+#black{
+	background-color: #000;
+	border: 5px solid #282923;
+	border-radius: 20px;
+	padding: 14px 20px;
+}
+#green{
+	background-color: green;
+	border: 5px solid #282923;
+	border-radius: 20px;
+	padding: 14px 20px;
+}
+#chat{
+	width: 32%;
+	background-color: #282923;
+	position: absolute;
+	top:0px;
+	bottom: 0px;
+	right: 0px;
+	border-top-left-radius: 20px;
+}
+.chat-header{
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+
+
+
+

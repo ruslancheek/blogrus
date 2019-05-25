@@ -1,2 +1,1 @@
-# blogrus
-Beta test roulette
+# Roulette

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Blorus</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+	<body>
+
+		<header>
+			<div id="emblem"><img class="emblem" src="image/EMBLEM.png"></div>
+			<div class="balance">Ваш баланс: <span id="balance"></span>руб.</div>
+		</header>
+		
+		<div id="content">
+
+			<div id="game">
+				<div id="roulette-all">
+					<center><img src="image/Roulette.png" id="roulette" alt="Roulette" ></center>
+					<img src="image/pointer2.png" id="pointer">
+				</div>
+				<div id="bet-all">
+					<center>
+					<div id="bet">
+						<form>
+						<div id="betting">
+							<p id="stavka">Ставка:</p>
+							<input type="number" name="betting" id="betting-inp" placeholder="0" min="1">
+						</div>
+						<input type="button" class="button-bet" id="red" name="red" value="RED">
+						<input type="button" class="button-bet" id="black" name="black" value="BLACK">
+						<input type="button" class="button-bet" id="green" name="green" value="GREEN">
+						</form>
+					</div>
+					</center>
+				</div>
+			</div>
+
+			<div id="chat">
+				<div class="chat-header"><h4>Chat</h4></div>
+				<hr>		
+
+			</div>
+
+		</div>
+	<script type="text/javascript" src="roulette.js"></script>
+	</body>
+</html>
